@@ -3,129 +3,158 @@
 <head>
 	<title>google.com</title>
 	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/css_reset.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
-	<header>
-		<div class="left">
-			<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="google_logo">
+	<div class="container">
+		<header class="header">
+			<div class="search_log">
+				<div class="s_left">
+					<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="google_logo">
 
-			<form>
-				<input type="text" name="search" class="search_box">
-				<i class="fas fa-search"></i>
-				<i class="fas fa-times"></i>
+					<form>
+						<input type="search" name="search" class="search_box">
+						<i class="fas fa-search fa-search_b"></i>
 
-				<a href="#"> <img class="voice_search" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png" title="Search by Voice"></a>
-			</form>
-	    </div>
-   
-		<div class="right">
+						<a href="#"> <img class="voice_search" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png" title="Search by Voice"></a>
+					</form>
+			    </div>
+		   
+				<div class="s_right">
 
-			<i class="fas fa-align-justify"></i>
-			<img src="./images/profilepic.jpg" class="profile">
-	    </div>
+					<svg class="gb_6e" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
+					<img src="./images/profilepic.jpg" class="profile">
+			    </div>
 
-		<nav class="header_nav">
-			<div class="left">
-				<a href="#"> <i class="fas fa-search"></i> All</a>
-				<a href="#"> <i class="fas fa-play"></i>Videos</a>
-				<a href="#"> <i class="far fa-newspaper"></i>News</a>
-				<a href="#"> <i class="fas fa-map-marker-alt"></i>Map</a>
-				<a href="#"> <i class="far fa-image"></i>Images</a>
-				<a href="#"> <i class="fas fa-angle-double-right"></i>More</a>
 		    </div>
 
-			<div class="right">
-				<a href="#">Settings</a>
-				<a href="#">Tools</a>
+			<nav class="header_nav">
+					<div class="left">
+						<div class="nav_item active">
+							<i class="fas fa-search"></i>
+							<a href="#"> All</a>
+					    </div>
+					    <div class="nav_item"> 
+							 <i class="fas fa-play"></i>
+							<a href="#">Videos</a>
+					    </div>
+	                    <div class="nav_item">
+							<i class="far fa-newspaper"></i>
+							<a href="#"> News</a>
+					    </div>
+	                    <div class="nav_item">
+							 <i class="fas fa-map-marker-alt"></i>
+							<a href="#">Map</a>
+						</div>
+	                     <div class="nav_item">
+							 <i class="far fa-image"></i>
+							<a href="#">Images</a>
+						</div>
+	                    <div class="nav_item">
+							<i class="fas fa-angle-double-right"></i>
+							<a href="#"> More</a>
+						</div>
+				    </div>
+
+					<div class="right">
+						<a href="#" class="nav_item">Settings</a>
+						<a href="#" class="nav_item">Tools</a>
+					</div>
+			</nav>
+		</header>
+	</div>    
+	    <main>
+	    	<hr class="line">
+	    	<p class="search_quantity"> About 96,500,000 results(0.39 seconds)</p>
+           
+	    	<div class="search_result">
+	    		<p>victor-if.github.io <i class="fas fa-angle-right"></i> google-search-results <i class="fas fa-caret-down"></i></p>
+	    		<h2>build this webpage - GitHub Pages</h2>
+	    		<p><strong>build this webpage.</strong> https://benjdelt.github.io/google-results/. With zero coding experience, artist <br> building 180 webpages in 180 days ...</p>
+	    	</div>
+
+	    	<div class="faq">
+	    		<h3>People also ask</h3>
+
+	    		<div class="related_question">
+	    			<a href="#">How can I create my won webpage?</a>
+	                <i class="fas fa-angle-down"></i>
+	    		</div>
+	    		<div class="related_question">
+	    			<a href="#">What does it cost to build a Web page?</a>
+	    			<i class="fas fa-angle-down"></i>
+	    	    </div>
+	    		<div class="related_question">
+	    			<a href="#">How do you build an awesome website?</a>
+	    			<i class="fas fa-angle-down"></i>
+	    	    </div>
+	    		<div class="related_question">
+	    			<a href="#">How can I create my won webpage?</a>
+	    			<i class="fas fa-angle-down"></i>
+	    	    </div>
+	    	</div>
+
+	    	<div class="people_also_search">
+	    		<h4>Web deshign program</h4>
+	    		<i class="fas fa-angle-up"></i>
+	    		<div class="softwares">
+	    			<div class="software">
+	    				<img src="">
+	    				<p>Mobirise</p>
+	    			</div>
+
+	    			<div class="software">
+	    				<img src="./images/s1.png">
+	    				<p>Mobirise</p>
+	    			</div>
+
+	    			<div class="software">
+	    				<img src="./images/s2.png">
+	    				<p>Mobirise</p>
+	    			</div>
+
+	    			<div class="software">
+	    				<img src="./images/s3.jpg">
+	    				<p>Mobirise</p>
+	    			</div>
+
+	    			<div class="software">
+	    				<img src="./images/s4.jpg">
+	    				<p>Mobirise</p>
+	    			</div>
+
+	       			<div class="software">
+	    				<img src="./images/s5.jpg">
+	    				<p>Mobirise</p>
+	    			</div> 
+
+	      			<div class="software">
+	    				<img src="./images/s6.jpg">
+	    				<p>Mobirise</p>
+	    			</div>
+	    			
+	    		</div>
+
+	    		<div class="see_more">
+	    			<i class="fas fa-long-arrow-alt-right"></i>
+	    			<span>Seee more</span>
+	    		</div>
+	    	</div>
+	    </main>
+
+		<footer>
+			<div class="user_location">
+				<span class="country">Japan</span>
+				<span> <strong>Koyoto</strong> - Based on your past activity - Use precise location - <a>Learn more</a></span>
 			</div>
-		</nav>
-	</header>
-    
-    <main>
-    	<span class="search_quantity"> About 96,500,000 results(0.39 seconds)</span>
-
-    	<div class="serch_result">
-    		<p>victor-if.github.io <i class="fas fa-angle-right"></i> google-search-results <i class="fas fa-caret-down"></i></p>
-    		<h2>build this webpage - GitHub Pages</h2>
-    		<p><strong>build this webpage.</strong> https://benjdelt.github.io/google-results/. With zero coding experience, artist building 180 webpages in 180 days ...</p>
-    	</div>
-
-    	<div class="faq">
-    		<h3>People also ask</h3>
-
-    		<div class="related_question">
-    			<a href="#">How can I create my won webpage?</a>
-                <i class="fas fa-angle-down"></i>
-    		</div>
-    		<div class="related_question">
-    			<a href="#">What does it cost to build a Web page?</a>
-    			<i class="fas fa-angle-down"></i>
-    	    </div>
-    		<div class="related_question">
-    			<a href="#">How do you build an awesome website?</a>
-    			<i class="fas fa-angle-down"></i>
-    	    </div>
-    		<div class="related_question">
-    			<a href="#">How can I create my won webpage?</a>
-    			<i class="fas fa-angle-down"></i>
-    	    </div>
-    	</div>
-
-    	<div class="people_also_search">
-    		<h4>Web deshign program</h4>
-    		<i class="fas fa-angle-up"></i>
-    		<div class="softwares">
-    			<div class="software">
-    				<img src="">
-    				<p>Mobirise</p>
-    			</div>
-
-    			<div class="software">
-    				<img src="">
-    				<p>Mobirise</p>
-    			</div>
-
-    			<div class="software">
-    				<img src="">
-    				<p>Mobirise</p>
-    			</div>
-
-    			<div class="software">
-    				<img src="">
-    				<p>Mobirise</p>
-    			</div>
-
-    			<div class="software">
-    				<img src="">
-    				<p>Mobirise</p>
-    			</div>
-
-       			<div class="software">
-    				<img src="">
-    				<p>Mobirise</p>
-    			</div>
-    			
-    		</div>
-
-    		<div class="see_more">
-    			<i class="fas fa-long-arrow-alt-right"></i>
-    			<span>Seee more</span>
-    		</div>
-    	</div>
-    </main>
-
-	<footer>
-		<div class="user_location">
-			<span class="country">Japan</span>
-			<span> <strong>Koyoto</strong> - Based on your past activity - Use precise location - <a>Learn more</a></span>
-		</div>
-		<nav class="footer_nav">
-			<a href="#">Help</a>
-			<a href="#">Send feedback</a>
-			<a href="#">Privacy</a>
-			<a href="#">Terms</a>
-		</nav>
-	</footer>
+			<nav class="footer_nav">
+				<a href="#">Help</a>
+				<a href="#">Send feedback</a>
+				<a href="#">Privacy</a>
+				<a href="#">Terms</a>
+			</nav>
+		</footer>
 </body>
 </html>
