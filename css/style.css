@@ -11,6 +11,10 @@ a {
 	color: #5f6368;
 	text-decoration: none;
 }
+
+a:hover{
+	text-decoration: underline;
+}
 strong{
 	font-weight: bold;
 }
@@ -28,6 +32,12 @@ strong{
 	height: 32px;
 	padding-right: 40px;
 	padding-top: 10px;
+}
+
+.google_logo_bottom{
+	width: 150px;
+	height:55px;
+	padding: 40px 0 10px 40px;
 }
 .voice_search{
 	 width: 15px;
@@ -67,6 +77,13 @@ strong{
 .line{
 	margin-top: 0;
 	opacity: 0.2;
+}
+
+.box{
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  width: 75%;
+  margin-bottom: 6%;
 }
 
 /********************************************************************/
@@ -149,12 +166,6 @@ strong{
 
 /* faq styles */
 
-.faq{
-  border: 1px solid #e5e5e5;
-  border-radius: 10px;
-  width: 75%;
-}
-
 .faq_title {
 	font-size: 20px;
 	color: #202124;
@@ -169,6 +180,9 @@ strong{
    font-size: 16px;
 }
 
+.related_question a:hover{
+	text-decoration: none;
+}
 .related_question .angle_icon {
 	float:right;
 	color:  #70757a;
@@ -186,5 +200,111 @@ strong{
 }
 
 /* people also searc for style*/
+.people_also_search{
+	color: #202124;
+}
 
+.p_a_s_title{
+	font-size: 20px;
+	padding-bottom: 3%;
+}
+
+.p_a_s_box_title_icon{
+	display: flex;
+	padding: 2%;
+	justify-content: space-between;
+}
+
+.p_a_s_box_title{
+	font-size: 15px;
+}
+
+/* softwares styles */
+
+.softwares{
+	display: flex;
+}
+
+.software{
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.software_title{
+	padding: 8px;
+}
+
+/* seemore box*/
+.see_more_container{
+	padding: 10px;
+}
+.see_more{
+	border: 1px solid #e5e5e5;
+    border-radius: 50px;
+    text-align: center;
+    width: 45%;
+    margin: 0 auto;
+    padding: 10px;
+    color: blue;
+}
+
+.see_more a{
+	color: blue;
+}
+.fa-long-arrow-alt-right{
+	float: left;
+	margin-left: 10px;
+	font-size: 20px;
+}
+
+/* related searches*/
+.related_searches_title{
+	font-size: 20px;
+	padding-bottom: 25px;
+}
+
+.related_questions{
+	display: flex;
+	flex-direction: column;
+	width: 62%;
+	line-height: 1.5;
+	color: blue;
+}
+
+.related_questions a {
+	color: blue;
+	font-weight: bold;
+}
+
+.related_question_left{
+	align-self: flex-start;
+}
+
+.related_question_right{
+	align-self: flex-end;
+	margin-top: -88px;
+}
+
+/* pages */
+
+.pages{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.page_numbers a {
+	margin-left: 10px;
+	color: blue;
+}
+
+.next{
+	padding-left: 40px;
+}
+
+/********************************************************************/
+/* footer style
+/********************************************************************/
 
